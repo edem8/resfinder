@@ -4,7 +4,7 @@
 }
 
 .tools_text_container {
-  margin-top: 30px;
+  margin-top: 40px;
 }
 
 .tools_text_container h1 {
@@ -24,6 +24,7 @@
 
 .all_cards_container1 {
   display: flex;
+  padding-top: 5px;
   justify-content: center;
   gap: 32px;
 }
@@ -38,7 +39,7 @@
 .more_integrations_container {
   display: flex;
   justify-content: center;
-  padding-top: 46px;
+  padding-top: 40px;
 }
 
 .more_integrations_container button {

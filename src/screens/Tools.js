@@ -2,7 +2,7 @@ import React from "react";
 import "./Tools.css";
 import IntegrationCard from "../components/IntegrationCard";
 
-const PubMed = new URL("../../images/meetup.png", import.meta.url);
+const PubMed = new URL("../../images/med.png", import.meta.url);
 const academia = new URL("../../images/mortarboard.png", import.meta.url);
 const researchgate = new URL("../../images/researchgate.png", import.meta.url);
 const jstor = new URL("../../images/jstor.png", import.meta.url);
@@ -54,7 +54,7 @@ function Tools() {
           label={"JSTOR"}
         />
         <IntegrationCard
-          toolName={"Google Scholar"}
+          toolName={"Google scholar"}
           image={scholar}
           description={
             "Boost your work by connecting directly to  google scholar"
@@ -63,7 +63,7 @@ function Tools() {
           label={"Google Scholar"}
         />
         <IntegrationCard
-          toolName={"arXiv"}
+          toolName={"ArXiv"}
           image={arxiv}
           description={"Boost your work by connecting directly to arxiv"}
           webpage={"https://arxiv.org/"}
