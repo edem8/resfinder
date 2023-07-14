@@ -1,0 +1,29 @@
+.search_bar {
+  border-bottom: 2px solid #737373;
+  width: 300px;
+  height: 24px;
+  padding: 3px 16px;
+  border-radius: 5px;
+  display: flex;
+  margin-left: auto;
+  margin-right: 170px;
+}
+
+#search_icon {
+  height: 20px;
+  width: 20px;
+  color: #737373;
+}
+
+input {
+  background-color: transparent;
+  border: none;
+  font-family: "Inter", sans-serif;
+  line-height: 22px;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 0 6px;
+}
+input:focus{
+    outline: none;
+}

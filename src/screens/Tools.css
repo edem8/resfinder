@@ -1,0 +1,56 @@
+.tools_container {
+  display: flex;
+  justify-content: center;
+}
+
+.tools_text_container {
+  margin-top: 30px;
+}
+
+.tools_text_container h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+  line-height: 20px;
+  font-weight: 600;
+}
+
+.tools_text_container h6 {
+  font-size: 15px;
+  line-height: 0px;
+  font-weight: 500;
+  color: #6d6d71;
+}
+
+.all_cards_container1 {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+
+.all_cards_container2 {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  padding-top: 50px;
+}
+
+.more_integrations_container {
+  display: flex;
+  justify-content: center;
+  padding-top: 46px;
+}
+
+.more_integrations_container button {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 6px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #6d6d71;
+}
