@@ -1,7 +1,7 @@
 import React from "react";
 import "./IntegrationCard.css";
 
-function IntegrationCard({ toolName, image, description, webpage, label }) {
+function IntegrationCard({ toolName, image, description, webpage, label, alt }) {
   return (
     <div className="intergation_container">
       <a
@@ -11,7 +11,7 @@ function IntegrationCard({ toolName, image, description, webpage, label }) {
         rel="noopener"
       >
         <button>
-          <img src={image} alt="PubMed" />
+          <img src={image} alt={alt} />
           <h1>{toolName}</h1>
           <p>{description}</p>
         </button>

@@ -25,12 +25,14 @@ function Tools() {
         <IntegrationCard
           toolName={"PubMed"}
           image={PubMed}
+          alt={"research gate"}
           description={"Boost your work by connecting directly to pubMed"}
           webpage={"https://pubmed.ncbi.nlm.nih.gov/"}
           label={"pubMed"}
         />
         <IntegrationCard
           toolName={"Academia"}
+          alt={"research gate"}
           image={academia}
           description={"Boost your work by connecting directly to Academia"}
           webpage={"https://www.academia.edu/"}
@@ -38,6 +40,7 @@ function Tools() {
         />
         <IntegrationCard
           toolName={"ResearchGate"}
+          alt={"research gate"}
           image={researchgate}
           description={"Boost your work by connecting directly to researchgate"}
           webpage={"https://www.researchgate.net/"}
@@ -48,6 +51,7 @@ function Tools() {
       <div className="all_cards_container2">
         <IntegrationCard
           toolName={"JSTOR"}
+          alt={"research gate"}
           image={jstor}
           description={"Boost your work by connecting directly to jstor"}
           webpage={"https://www.jstor.org/subjects"}
@@ -55,6 +59,7 @@ function Tools() {
         />
         <IntegrationCard
           toolName={"Google scholar"}
+          alt={"research gate"}
           image={scholar}
           description={
             "Boost your work by connecting directly to  google scholar"
@@ -65,6 +70,7 @@ function Tools() {
         <IntegrationCard
           toolName={"ArXiv"}
           image={arxiv}
+          alt={"research gate"}
           description={"Boost your work by connecting directly to arxiv"}
           webpage={"https://arxiv.org/"}
           label={"Arxiv"}
