@@ -18,7 +18,7 @@ function Home() {
           kickstart reseacrh projects using resFinder.
         </h5>
 
-        <a href="tools" aria-label="Explore Tools" className="explore">
+        <a href="https://resfindr.netlify.app/tools" aria-label="Explore Tools" className="explore">
           <button>
             Explore Tools <FaArrowRight />
           </button>
