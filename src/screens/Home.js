@@ -1,6 +1,7 @@
 import React from "react";
 import { FaArrowRight } from "react-icons/fa6";
 import "./Home.css";
+import { NavLink } from "react-router-dom";
 
 const search = new URL ("../../images/Retroviruses-cuate.png", import.meta.url);
 function Home() {
@@ -18,11 +19,11 @@ function Home() {
           kickstart reseacrh projects using resFinder.
         </h5>
 
-        <a href="https://resfindr.netlify.app/tools" aria-label="Explore Tools" className="explore">
+        <NavLink to="tools" aria-label="Explore Tools" className="explore">
           <button>
             Explore Tools <FaArrowRight />
           </button>
-        </a>
+        </NavLink>
       </div>
 
       <div className="home_img_container">

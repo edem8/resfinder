@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "toolName": "PubMed",
+        "webpage": "https://pubmed.ncbi.nlm.nih.gov/"
+    },
+    {
+        "id": 2,
+        "toolName": "Academia",
+        "webpage": "https://www.academia.edu/"
+    },
+    {
+        "id": 3,
+        "toolName": "ResearchGate",
+        "webpage": "https://www.researchgate.net/"
+    },
+    {
+        "id": 4,
+        "toolName": "JSTOR",
+        "webpage": "https://www.jstor.org/subjects"
+    },
+    {
+        "id": 5,
+        "toolName": "Google Scholar",
+        "webpage": "https://www.researchgate.net/"
+    },
+    {
+        "id": 6,
+        "toolName": "ArXiv",
+        "webpage": "https://arxiv.org/"
+    }
+]
